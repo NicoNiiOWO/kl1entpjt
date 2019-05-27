@@ -1,0 +1,9 @@
+html{
+    background-color: #1f2223;
+    color: lightgray;
+}
+
+button{
+    margin-top: 10px;
+    border-radius: 3px;
+}
