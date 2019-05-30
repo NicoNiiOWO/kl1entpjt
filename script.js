@@ -1,9 +1,13 @@
 /* global $ */
-/* global tags */
+/* global songs */
 const body = $("body");
 
 function plswork(score){
-    return tags[score];
+    if(score < (songs.length-1)){
+        return songs[score];
+    }else{
+        return songs[songs.length-1];
+    }
 }
 
 function value(name){
@@ -49,9 +53,9 @@ var videoId;
 var thumbnail;
 $("#submit").click(function(){
     getScore();
-    var tag = plswork(score);
-    var name = tag.name;
-    var artist = tag.artist;
+    var song = plswork(score);
+    var name = song.name;
+    var artist = song.artist;
 
     
     

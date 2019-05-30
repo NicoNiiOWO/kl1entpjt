@@ -1,4 +1,4 @@
-let tags = [{
+let songs = [{
     name: "A Cruel Angel's Thesis",
     artist: "Yoko Takahashi"
 }, {
@@ -45,7 +45,7 @@ let tags = [{
     artist: "スキマスイッチ"
 }, {
     name: "Sono Chi No Kioku",
-    artist: "JOâ˜†STARS ~TOMMY,Coda,JIN~"
+    artist: "JO☆STARS ～TOMMY, Coda, JIN～"
 }, {
     name: "BLOODY STREAM",
     artist: "Coda"
